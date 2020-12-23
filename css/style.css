@@ -98,7 +98,7 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  background: url("../img/texture-paper.png");
   background-size: 280px 280px;
 }
 
@@ -108,6 +108,14 @@ a:hover {
 
 .col-sm-6 > p {
     font-size: 15px;
+}
+
+.text-size-smaller {
+    font-size: medium;
+}
+.text-size-small {
+    font-size: smaller;
+    line-height: 2rem;
 }
 
 .b-parallax {
@@ -805,7 +813,7 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
